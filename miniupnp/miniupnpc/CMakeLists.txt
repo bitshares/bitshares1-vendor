@@ -71,7 +71,7 @@ set (MINIUPNPC_SOURCES
   minixml.c
   minisoap.c
   miniwget.c
-  upnpc.c
+#  upnpc.c
   upnpcommands.c
   upnpreplyparse.c
   upnperrors.c
@@ -136,7 +136,7 @@ if (UPNPC_BUILD_TESTS)
   target_link_libraries (testupnpreplyparse ${LDLIBS})
 
   add_executable (testigddescparse testigddescparse.c
-                                   igd_desc_parse.c minixml.c miniupnpc.c miniwget.c minissdpc.c
+                                   igd_desc_parse.c minixml.c miniwget.c minissdpc.c
                                    upnpcommands.c upnpreplyparse.c minisoap.c connecthostport.c
                                    portlistingparse.c receivedata.c
   )
