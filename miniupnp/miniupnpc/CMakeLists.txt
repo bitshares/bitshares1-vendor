@@ -65,13 +65,13 @@ endif ()
 configure_file (${CMAKE_CURRENT_SOURCE_DIR}/miniupnpcstrings.h.cmake ${CMAKE_CURRENT_SOURCE_DIR}/miniupnpcstrings.h)
 include_directories (${CMAKE_BINARY_DIR})
 
+#  upnpc.c
 set (MINIUPNPC_SOURCES
   igd_desc_parse.c
   miniupnpc.c
   minixml.c
   minisoap.c
   miniwget.c
-#  upnpc.c
   upnpcommands.c
   upnpreplyparse.c
   upnperrors.c
