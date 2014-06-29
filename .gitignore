@@ -1,1 +1,8 @@
-/miniupnp/miniupnpc/miniupnpcstrings.h
+*.a
+*.o
+*.cmake
+
+CMakeFiles
+Makefile
+
+miniupnp/miniupnpc/miniupnpcstrings.h
